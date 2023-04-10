@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tỷ số bóng đá</string>
+    <!--    premier league-->
+    <string name="premier_league">Premier League</string>
+    <string name="match">Trận đấu</string>
+    <string name="standing">Bảng xếp hạng</string>
+    <string name="statistic">Thống kê </string>
+
+</resources>
