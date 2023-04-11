@@ -15,6 +15,27 @@
         android:theme="@style/Theme.TỷSốBóngĐá"
         tools:targetApi="31">
         <activity
+            android:name=".ui.seria.SeriaActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.league1.League1Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.bundesliga.BundesligaActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ui.Laliga.LaligaActivity"
             android:exported="false">
             <meta-data

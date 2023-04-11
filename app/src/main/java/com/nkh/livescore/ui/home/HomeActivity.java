@@ -12,6 +12,9 @@ import com.nkh.livescore.adapter.BannerAdapter;
 import com.nkh.livescore.databinding.ActivityHomeBinding;
 import com.nkh.livescore.ui.Laliga.LaligaActivity;
 import com.nkh.livescore.ui.PremierLeague.PremierLeagueActivity;
+import com.nkh.livescore.ui.bundesliga.BundesligaActivity;
+import com.nkh.livescore.ui.league1.League1Activity;
+import com.nkh.livescore.ui.seria.SeriaActivity;
 
 import java.util.ArrayList;
 
@@ -46,6 +49,29 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(new Intent(HomeActivity.this, LaligaActivity.class));
             }
         });
+
+        binding.bundesliga.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomeActivity.this, BundesligaActivity.class));
+            }
+        });
+
+        binding.cardViewLeague1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomeActivity.this, League1Activity.class));
+            }
+        });
+
+        binding.seriaCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomeActivity.this, SeriaActivity.class));
+            }
+        });
+
+
 
         imageList= new ArrayList<>();
         imageList.add(R.drawable.ic_champion_league);
