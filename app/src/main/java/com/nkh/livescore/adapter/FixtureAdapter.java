@@ -90,7 +90,6 @@ public class FixtureAdapter extends RecyclerView.Adapter<FixtureAdapter.FixtureV
             awayGoal =itemView.findViewById(R.id.away_goal);
             logoHome =itemView.findViewById(R.id.logo_home);
             logoAway = itemView.findViewById(R.id.logo_away);
-
         }
     }
 
